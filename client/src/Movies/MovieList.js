@@ -1,6 +1,11 @@
 import React from 'react';
 
 export default function MovieList(props) {
+  // console.log("MovieList = ", props.movies)
+  // props.movies.map( m => {
+  //   console.log(m.id)
+  // });
+
   return (
     <div className="movie-list">
       {props.movies.map(movie => (
