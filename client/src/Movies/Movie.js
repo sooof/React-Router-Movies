@@ -3,7 +3,8 @@ import axios from 'axios';
 
 export default function Movie(props) {
   const [movie, setMovie] = useState();
-
+  const { movies } = props
+  console.log("Movie.js: props = ", props, "Movie = ", movies)
   let id = 1;
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
 
